@@ -7,8 +7,3 @@ echo "\n"
 echo "Example using C library imported into go project"
 ./bin/example2
 echo "\n"
-
-echo "Example using (attacked) C library imported into go project"
-./bin/example3
-echo "\n"
-

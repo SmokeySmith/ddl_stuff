@@ -16,4 +16,3 @@ go build -o "./bin/libmyLib.${DL_EXT}" -buildmode=c-shared ./dll/dll.go
 # build our examples
 go build -o ./bin/example1 ./example1/example.go
 go build -o ./bin/example2 ./example2/example.go
-go build -o ./bin/example3 ./example3/example.go

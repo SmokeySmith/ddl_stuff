@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+source ./getExt.sh
 
-LIB_NAME="./bin/libmyLib_c.so"
+LIB_NAME="./bin/libmyLib_c.${DL_EXT}"
 ORIG_HEX_FILE="./bin/hex_dump.txt" # Store the original hex dump for reference
 # case sensitive btw
 OLD_HEX="48656c6c6f204920616d20612043206c696272617279" # REPLACE WITH YOUR ACTUAL ORIGINAL HEX

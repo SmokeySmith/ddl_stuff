@@ -1,1 +1,7 @@
-bin
+/bin/
+*.exe    # Windows executables
+*.dll    # Windows dynamic link libraries (often output of compilation)
+*.so     # Linux shared objects (often output of compilation)
+*.dylib  # macOS dynamic libraries (often output of compilation)
+*.o      # Object files (intermediate compilation artifacts)
+*.obj    # Object files (Windows intermediate compilation artifacts)

@@ -29,6 +29,7 @@ echo "$HEX_CONTENT" | xxd -r -p > "${LIB_NAME}.patched"
 # --- Replace the original with the patched version ---
 mv "${LIB_NAME}.patched" "$LIB_NAME"
 echo "Successfully patched $LIB_NAME"
+echo "Planet hacked"
 
 # --- Clean up temporary hex dump files ---
 rm "$ORIG_HEX_FILE"

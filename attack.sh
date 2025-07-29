@@ -4,7 +4,7 @@ source ./getExt.sh
 echo "Begining Malware lol"
 
 LIB_NAME="./bin/libmyLib_c.${DL_EXT}"
-ATTACK_LIB_NAME="./bin/libmyAttackedLib_c.so"
+ATTACK_LIB_NAME="./bin/libmyAttackedLib_c.${DL_EXT}"
 ORIG_HEX_FILE="./bin/hex_dump.hex" # Store the original hex dump for reference
 PATCH_FILE_NAME="./bin/changes.patch"
 ATTACK_HEX_FILE="./bin/bad_hex_dump.hex"

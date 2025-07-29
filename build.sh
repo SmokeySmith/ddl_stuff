@@ -1,12 +1,10 @@
 #!/bin/bash
 source ./getExt.sh
+source ./setLibPath.sh
 # DL_EXT=$(./getExt.sh)
 ./clean.sh
 
 cp ./hell/myLib_c.h ./bin/
-if [$LD_LIBARY_PATH == ""]; then
-    export LD_LIBRARY_PATH=/home/joey/dev/dll_stuff/bin:$LD_LIBRARY_PATH
-fi
 
 echo "Compiling Go/C libraries"
 # build our C binaries
@@ -22,4 +20,4 @@ echo "Building Go Executables"
 go build -o ./bin/example1 ./example1/example.go
 go build -o ./bin/example2 ./example2/example.go
 
-echo "Build successful !!"
+echo "Build Compelte!!"

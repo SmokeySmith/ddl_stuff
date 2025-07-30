@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 source ./setLibPath.sh
 
 echo "Example using go library imported into go project"

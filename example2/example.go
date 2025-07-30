@@ -7,7 +7,9 @@ package main
 #include "myLib_c.h"
 */
 import "C"
+import "fmt"
 
 func main() {
     C.OkMessage()
+    fmt.Println("Imported into a go project.")
 }

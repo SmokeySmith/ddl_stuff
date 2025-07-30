@@ -5,7 +5,7 @@ import "fmt"
 
 //export OkMessage
 func OkMessage() {
-    fmt.Println("Nice happy message")
+    fmt.Println("Hello I am a dynamic library built in go.")
 }
 
 func main(){}

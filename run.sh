@@ -1,10 +1,13 @@
 #!/bin/bash
 source ./setLibPath.sh
 
-echo "Example using go library imported into go project"
-./bin/example1
-echo "\n"
+red="\033[31m"
+reset="\033[0m"
 
-echo "Example using C library imported into go project"
+echo -e "${red}Example using go library imported into go project${reset}"
+./bin/example1
+echo ""
+
+echo -e "${red}Example using C library imported into go project${reset}"
 ./bin/example2
-echo "\n"
+echo ""

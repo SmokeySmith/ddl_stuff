@@ -1,7 +1,6 @@
 #!/bin/bash
 source ./getExt.sh
 source ./setLibPath.sh
-# DL_EXT=$(./getExt.sh)
 ./clean.sh
 
 cp ./hell/myLib_c.h ./bin/

@@ -19,8 +19,6 @@ diff -u $ORIG_HEX_FILE $ATTACK_HEX_FILE > $PATCH_FILE_NAME
 patch $ORIG_HEX_FILE < $PATCH_FILE_NAME
 # get load the hex content as a single line so our content doesn't get broken up
 HEX_CONTENT=$(tr -d '\n' < $ORIG_HEX_FILE)
-# replace the desired content with our evil message
-# PATCHED_HEX_CONTENT=$(echo "$HEX_CONTENT" | sed "s/$OLD_HEX/$NEW_HEX/")
 
 echo "Applying patch..."
 # --- Convert the modified single-line hex back to binary ---
